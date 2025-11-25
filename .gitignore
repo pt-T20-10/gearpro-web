@@ -1,0 +1,18 @@
+# --- WordPress Core & Config ---
+# Bỏ qua file cấu hình chứa mật khẩu TiDB (QUAN TRỌNG NHẤT)
+wp-config.php
+# Bỏ qua file cấu hình server local
+.htaccess
+
+# --- Media & Uploads ---
+# Bỏ qua thư mục ảnh/video nặng (Team tự up ảnh test riêng)
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+
+# --- Logs & System ---
+*.log
+error_log
+debug.log
+.DS_Store
+Thumbs.db
